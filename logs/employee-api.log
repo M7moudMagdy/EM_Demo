@@ -1,0 +1,619 @@
+2024-11-13T15:51:23.880+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Starting DemoApplication using Java 21.0.1 with PID 27580 (C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo\target\classes started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T15:51:23.881+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T15:51:24.103+02:00  INFO 27580 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T15:51:24.117+02:00  INFO 27580 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-11-13T15:51:24.230+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-13T15:51:24.231+02:00  INFO 27580 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-13T15:51:24.231+02:00  INFO 27580 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-13T15:51:24.265+02:00  INFO 27580 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-13T15:51:24.266+02:00  INFO 27580 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 380 ms
+2024-11-13T15:51:24.277+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2024-11-13T15:51:24.278+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-33 - Added connection conn282: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T15:51:24.278+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2024-11-13T15:51:24.278+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T15:51:24.298+02:00  INFO 27580 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T15:51:24.301+02:00  INFO 27580 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T15:51:24.309+02:00  INFO 27580 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T15:51:24.310+02:00  WARN 27580 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T15:51:24.343+02:00  INFO 27580 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T15:51:24.345+02:00  INFO 27580 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T15:51:24.400+02:00  WARN 27580 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T15:51:24.493+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-13T15:51:24.514+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-13T15:51:24.518+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Started DemoApplication in 0.708 seconds (process running for 1802.913)
+2024-11-13T15:51:24.519+02:00  INFO 27580 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-13T15:51:44.475+02:00  INFO 27580 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-13T15:51:44.485+02:00  INFO 27580 --- [demo] [Thread-126] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T15:51:44.485+02:00  WARN 27580 --- [demo] [Thread-126] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-13T15:51:44.485+02:00  INFO 27580 --- [demo] [Thread-126] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2024-11-13T15:51:44.486+02:00  INFO 27580 --- [demo] [Thread-126] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
+2024-11-13T15:51:44.601+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Starting DemoApplication using Java 21.0.1 with PID 27580 (C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo\target\classes started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T15:51:44.603+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T15:51:44.887+02:00  INFO 27580 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T15:51:44.903+02:00  INFO 27580 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2024-11-13T15:51:45.017+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-13T15:51:45.018+02:00  INFO 27580 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-13T15:51:45.018+02:00  INFO 27580 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-13T15:51:45.058+02:00  INFO 27580 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-13T15:51:45.058+02:00  INFO 27580 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 453 ms
+2024-11-13T15:51:45.072+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Starting...
+2024-11-13T15:51:45.074+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-34 - Added connection conn292: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T15:51:45.075+02:00  INFO 27580 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Start completed.
+2024-11-13T15:51:45.075+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T15:51:45.100+02:00  INFO 27580 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T15:51:45.105+02:00  INFO 27580 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T15:51:45.115+02:00  INFO 27580 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T15:51:45.116+02:00  WARN 27580 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T15:51:45.154+02:00  INFO 27580 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T15:51:45.156+02:00  INFO 27580 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T15:51:45.223+02:00  WARN 27580 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T15:51:45.325+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-13T15:51:45.349+02:00  INFO 27580 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-13T15:51:45.352+02:00  INFO 27580 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Started DemoApplication in 0.793 seconds (process running for 1823.748)
+2024-11-13T15:51:45.353+02:00  INFO 27580 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-13T16:10:56.698+02:00  INFO 27580 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:10:56.702+02:00  WARN 27580 --- [demo] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-13T16:10:56.704+02:00  INFO 27580 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown initiated...
+2024-11-13T16:10:56.717+02:00  INFO 27580 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown completed.
+2024-11-13T16:12:17.571+02:00  INFO 35648 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 35648 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:12:17.574+02:00  INFO 35648 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:12:20.802+02:00  INFO 35648 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:12:20.803+02:00  INFO 35648 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:12:20.806+02:00  INFO 35648 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-11-13T16:12:20.837+02:00  INFO 35648 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 3.81 seconds (process running for 5.531)
+2024-11-13T16:12:21.407+02:00  INFO 35648 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:12:21.434+02:00  INFO 35648 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:12:21.449+02:00  INFO 35648 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:12:21.554+02:00  INFO 35648 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 35648 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:12:21.555+02:00  INFO 35648 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:12:22.072+02:00  INFO 35648 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:12:22.152+02:00  INFO 35648 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-11-13T16:12:22.567+02:00  INFO 35648 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:12:22.660+02:00  INFO 35648 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:12:22.722+02:00  INFO 35648 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:12:22.902+02:00  INFO 35648 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:12:22.943+02:00  INFO 35648 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:12:23.222+02:00  INFO 35648 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:12:23.225+02:00  INFO 35648 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:12:23.261+02:00  WARN 35648 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:12:24.368+02:00  INFO 35648 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:12:24.453+02:00  INFO 35648 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:12:24.992+02:00  WARN 35648 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:12:25.204+02:00  INFO 35648 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:12:25.304+02:00  INFO 35648 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 3.855 seconds (process running for 9.998)
+2024-11-13T16:12:25.575+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 36899877-5387-451a-861a-a291d7c880e7
+2024-11-13T16:12:25.704+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: e843f26d-64ba-4206-9de7-e9770484f1b1
+2024-11-13T16:12:25.705+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: e843f26d-64ba-4206-9de7-e9770484f1b1
+2024-11-13T16:12:25.705+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: e843f26d-64ba-4206-9de7-e9770484f1b1
+2024-11-13T16:12:25.719+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: ad53db78-1a42-4ed1-acec-fc8a2508477f
+2024-11-13T16:12:25.720+02:00 ERROR 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: ad53db78-1a42-4ed1-acec-fc8a2508477f
+2024-11-13T16:12:25.731+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 954e5b08-3abd-46ef-91c7-5bfe8cb77741
+2024-11-13T16:12:25.732+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 954e5b08-3abd-46ef-91c7-5bfe8cb77741
+2024-11-13T16:12:25.733+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 954e5b08-3abd-46ef-91c7-5bfe8cb77741
+2024-11-13T16:12:25.745+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=ea911a09-665e-4dd4-a8a5-59e3ac6606ed, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:12:25.750+02:00  INFO 35648 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: ea911a09-665e-4dd4-a8a5-59e3ac6606ed
+2024-11-13T16:12:25.805+02:00  INFO 35648 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:12:25.810+02:00  INFO 35648 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:12:25.817+02:00  INFO 35648 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:17:28.027+02:00  INFO 25840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 25840 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:17:28.029+02:00  INFO 25840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:17:32.328+02:00  INFO 25840 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:17:32.329+02:00  INFO 25840 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:17:32.334+02:00  INFO 25840 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-11-13T16:17:32.390+02:00  INFO 25840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 4.946 seconds (process running for 7.496)
+2024-11-13T16:17:33.215+02:00  INFO 25840 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:17:33.643+02:00  INFO 25840 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:17:33.660+02:00  INFO 25840 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:17:33.763+02:00  INFO 25840 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 25840 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:17:33.765+02:00  INFO 25840 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:17:34.602+02:00  INFO 25840 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:17:34.724+02:00  INFO 25840 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2024-11-13T16:17:35.380+02:00  INFO 25840 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:17:35.600+02:00  INFO 25840 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:17:35.732+02:00  INFO 25840 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:17:36.117+02:00  INFO 25840 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:17:36.208+02:00  INFO 25840 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:17:36.720+02:00  INFO 25840 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:17:36.724+02:00  INFO 25840 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:17:36.773+02:00  WARN 25840 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:17:38.283+02:00  INFO 25840 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:17:38.404+02:00  INFO 25840 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:17:41.180+02:00  WARN 25840 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:17:41.934+02:00  INFO 25840 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:17:42.393+02:00  INFO 25840 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 8.733 seconds (process running for 17.499)
+2024-11-13T16:17:43.981+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: c6d6497f-b8d0-4a58-ae25-3889d8a6ef46
+2024-11-13T16:17:44.575+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 315c9999-63bf-4546-8c6b-b8e4970be555
+2024-11-13T16:17:44.577+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 315c9999-63bf-4546-8c6b-b8e4970be555
+2024-11-13T16:17:44.580+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 315c9999-63bf-4546-8c6b-b8e4970be555
+2024-11-13T16:17:44.634+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 1b4e530c-4589-474d-b5e5-ef5f5d70bcf2
+2024-11-13T16:17:44.637+02:00 ERROR 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 1b4e530c-4589-474d-b5e5-ef5f5d70bcf2
+2024-11-13T16:17:44.677+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: e41868fe-7281-43ea-81f4-b44bc88e8039
+2024-11-13T16:17:44.680+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: e41868fe-7281-43ea-81f4-b44bc88e8039
+2024-11-13T16:17:44.683+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: e41868fe-7281-43ea-81f4-b44bc88e8039
+2024-11-13T16:17:44.715+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=68d3ce1c-daca-471d-9c17-cbaf2669f572, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:17:44.730+02:00  INFO 25840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 68d3ce1c-daca-471d-9c17-cbaf2669f572
+2024-11-13T16:17:44.918+02:00  INFO 25840 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:17:44.931+02:00  INFO 25840 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:17:44.951+02:00  INFO 25840 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:24:10.780+02:00  INFO 36780 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 36780 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:24:10.786+02:00  INFO 36780 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:24:13.954+02:00  INFO 36780 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:24:13.955+02:00  INFO 36780 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:24:13.957+02:00  INFO 36780 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-11-13T16:24:14.005+02:00  INFO 36780 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 5.592 seconds (process running for 13.634)
+2024-11-13T16:24:14.380+02:00  INFO 36780 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:24:14.396+02:00  INFO 36780 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:24:14.407+02:00  INFO 36780 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:24:14.497+02:00  INFO 36780 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 36780 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:24:14.497+02:00  INFO 36780 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:24:14.938+02:00  INFO 36780 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:24:15.004+02:00  INFO 36780 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-11-13T16:24:15.396+02:00  INFO 36780 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:24:15.522+02:00  INFO 36780 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:24:15.577+02:00  INFO 36780 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:24:15.762+02:00  INFO 36780 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:24:15.802+02:00  INFO 36780 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:24:16.031+02:00  INFO 36780 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:24:16.035+02:00  INFO 36780 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:24:16.064+02:00  WARN 36780 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:24:16.958+02:00  INFO 36780 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:24:17.025+02:00  INFO 36780 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:24:17.509+02:00  WARN 36780 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:24:17.690+02:00  INFO 36780 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:24:17.770+02:00  INFO 36780 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 3.364 seconds (process running for 17.4)
+2024-11-13T16:24:17.946+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: ce2a1042-c5ae-4820-92db-f6ff4890ee6b
+2024-11-13T16:24:18.045+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 849b7b96-f05f-4cae-a098-49769e9c2d5c
+2024-11-13T16:24:18.045+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 849b7b96-f05f-4cae-a098-49769e9c2d5c
+2024-11-13T16:24:18.046+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 849b7b96-f05f-4cae-a098-49769e9c2d5c
+2024-11-13T16:24:18.055+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: c2109eb0-6101-495a-9329-07b91ad1f065
+2024-11-13T16:24:18.055+02:00 ERROR 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: c2109eb0-6101-495a-9329-07b91ad1f065
+2024-11-13T16:24:18.061+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 850a09fa-b903-455d-a7df-f9c44dc8c633
+2024-11-13T16:24:18.062+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 850a09fa-b903-455d-a7df-f9c44dc8c633
+2024-11-13T16:24:18.063+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 850a09fa-b903-455d-a7df-f9c44dc8c633
+2024-11-13T16:24:18.071+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=5435a948-9efc-4be2-88cc-e211319e749e, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:24:18.075+02:00  INFO 36780 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 5435a948-9efc-4be2-88cc-e211319e749e
+2024-11-13T16:24:18.106+02:00  INFO 36780 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:24:18.110+02:00  INFO 36780 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:24:18.114+02:00  INFO 36780 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:26:59.425+02:00  INFO 27284 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 27284 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:26:59.429+02:00  INFO 27284 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:27:06.977+02:00  INFO 27284 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:27:06.983+02:00  INFO 27284 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:27:06.995+02:00  INFO 27284 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2024-11-13T16:27:07.206+02:00  INFO 27284 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 8.422 seconds (process running for 10.024)
+2024-11-13T16:27:09.341+02:00  INFO 27284 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:27:09.469+02:00  INFO 27284 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:27:09.559+02:00  INFO 27284 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:27:09.959+02:00  INFO 27284 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 27284 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:27:09.963+02:00  INFO 27284 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:27:12.516+02:00  INFO 27284 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:27:12.936+02:00  INFO 27284 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 355 ms. Found 1 JPA repository interface.
+2024-11-13T16:27:15.455+02:00  INFO 27284 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:27:16.037+02:00  INFO 27284 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:27:16.277+02:00  INFO 27284 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:27:17.160+02:00  INFO 27284 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:27:17.370+02:00  INFO 27284 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:27:18.776+02:00  INFO 27284 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:27:18.789+02:00  INFO 27284 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:27:18.950+02:00  WARN 27284 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:27:23.912+02:00  INFO 27284 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:27:23.980+02:00  INFO 27284 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:27:24.440+02:00  WARN 27284 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:27:24.725+02:00  INFO 27284 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:27:24.810+02:00  INFO 27284 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 15.253 seconds (process running for 27.629)
+2024-11-13T16:27:25.058+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: c2ddcad5-d31c-44c3-ab54-3444f9b70312
+2024-11-13T16:27:25.158+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 632b7a48-adcb-4fb9-9c32-a31fe46d1a5b
+2024-11-13T16:27:25.158+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 632b7a48-adcb-4fb9-9c32-a31fe46d1a5b
+2024-11-13T16:27:25.158+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 632b7a48-adcb-4fb9-9c32-a31fe46d1a5b
+2024-11-13T16:27:25.173+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 19b5de38-87fe-41b7-b528-e88a1ba3f0fb
+2024-11-13T16:27:25.174+02:00 ERROR 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 19b5de38-87fe-41b7-b528-e88a1ba3f0fb
+2024-11-13T16:27:25.179+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 2994ce8f-cee2-4edb-b792-733ecbdd035b
+2024-11-13T16:27:25.179+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 2994ce8f-cee2-4edb-b792-733ecbdd035b
+2024-11-13T16:27:25.180+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 2994ce8f-cee2-4edb-b792-733ecbdd035b
+2024-11-13T16:27:25.190+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=1ac8bae5-69e6-46ae-8400-ab32facb3fc3, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:27:25.195+02:00  INFO 27284 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 1ac8bae5-69e6-46ae-8400-ab32facb3fc3
+2024-11-13T16:27:25.224+02:00  INFO 27284 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:27:25.227+02:00  INFO 27284 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:27:25.230+02:00  INFO 27284 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:28:49.715+02:00  INFO 28696 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 28696 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:28:49.719+02:00  INFO 28696 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:28:56.596+02:00  INFO 28696 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:28:56.601+02:00  INFO 28696 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:28:56.611+02:00  INFO 28696 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2024-11-13T16:28:56.749+02:00  INFO 28696 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 7.775 seconds (process running for 9.967)
+2024-11-13T16:28:57.574+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: ae518c22-8c12-4df4-a7d6-33345c7158c8
+2024-11-13T16:28:57.634+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: ae518c22-8c12-4df4-a7d6-33345c7158c8 deleted successfully
+2024-11-13T16:28:58.243+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 54e08157-8ffb-4aa9-993f-85f789f67fc2
+2024-11-13T16:28:58.867+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: c1b4f3b9-fb9e-4b13-9a20-a9fe78b0540f
+2024-11-13T16:28:58.953+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:28:58.956+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:28:59.873+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 0472724d-65d8-492e-b36f-7df69cb667a3
+2024-11-13T16:28:59.876+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 0472724d-65d8-492e-b36f-7df69cb667a3 updated successfully
+2024-11-13T16:28:59.988+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:28:59.991+02:00  INFO 28696 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: 1536b179-650c-4dc2-9ec4-9c33b7670cb3
+2024-11-13T16:29:00.104+02:00  INFO 28696 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:29:00.231+02:00  INFO 28696 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:29:00.293+02:00  INFO 28696 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:29:00.621+02:00  INFO 28696 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 28696 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:29:00.628+02:00  INFO 28696 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:29:04.284+02:00  INFO 28696 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:29:04.947+02:00  INFO 28696 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 495 ms. Found 1 JPA repository interface.
+2024-11-13T16:29:07.104+02:00  INFO 28696 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:29:07.536+02:00  INFO 28696 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:29:07.757+02:00  INFO 28696 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:29:08.626+02:00  INFO 28696 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:29:08.841+02:00  INFO 28696 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:29:10.033+02:00  INFO 28696 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:29:10.043+02:00  INFO 28696 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:29:10.202+02:00  WARN 28696 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:29:13.038+02:00  INFO 28696 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:29:13.143+02:00  INFO 28696 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:29:13.692+02:00  WARN 28696 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:29:13.903+02:00  INFO 28696 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:29:14.039+02:00  INFO 28696 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 13.748 seconds (process running for 27.257)
+2024-11-13T16:29:14.291+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 8b2db3f3-0a34-47fe-839d-a833b7c815e9
+2024-11-13T16:29:14.376+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: f0b408dc-7155-44e3-b83b-cc1dc2418832
+2024-11-13T16:29:14.376+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: f0b408dc-7155-44e3-b83b-cc1dc2418832
+2024-11-13T16:29:14.377+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: f0b408dc-7155-44e3-b83b-cc1dc2418832
+2024-11-13T16:29:14.388+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 7972c103-4108-4723-873f-d8601ab609cd
+2024-11-13T16:29:14.389+02:00 ERROR 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 7972c103-4108-4723-873f-d8601ab609cd
+2024-11-13T16:29:14.396+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 0872403f-d1ed-49d3-92f7-0fdb2251aae5
+2024-11-13T16:29:14.397+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 0872403f-d1ed-49d3-92f7-0fdb2251aae5
+2024-11-13T16:29:14.397+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 0872403f-d1ed-49d3-92f7-0fdb2251aae5
+2024-11-13T16:29:14.407+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=f2c487ff-5b94-4a6a-aaab-19a021ce1b31, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:29:14.411+02:00  INFO 28696 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: f2c487ff-5b94-4a6a-aaab-19a021ce1b31
+2024-11-13T16:29:14.450+02:00  INFO 28696 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:29:14.454+02:00  INFO 28696 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:29:14.459+02:00  INFO 28696 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:30:49.261+02:00  INFO 24884 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 24884 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:30:49.264+02:00  INFO 24884 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:30:52.266+02:00  INFO 24884 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:30:52.267+02:00  INFO 24884 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:30:52.269+02:00  INFO 24884 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-11-13T16:30:52.307+02:00  INFO 24884 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 4.121 seconds (process running for 13.091)
+2024-11-13T16:30:52.482+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: e4afefa5-042f-4f76-8518-75bf99ed94ec
+2024-11-13T16:30:52.492+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: e4afefa5-042f-4f76-8518-75bf99ed94ec deleted successfully
+2024-11-13T16:30:52.638+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 173dea04-82d9-4983-a5db-5f363975186d
+2024-11-13T16:30:52.760+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: e51a24b0-2a98-47c5-9977-a1cbf769577c
+2024-11-13T16:30:52.774+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:30:52.775+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:30:53.009+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 7defc3fc-7ad9-4b8a-bc13-45d771146f73
+2024-11-13T16:30:53.012+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 7defc3fc-7ad9-4b8a-bc13-45d771146f73 updated successfully
+2024-11-13T16:30:53.041+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:30:53.042+02:00  INFO 24884 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: 0037a0e1-70a1-47b0-ba6e-a980299e0589
+2024-11-13T16:30:53.065+02:00  INFO 24884 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:30:53.085+02:00  INFO 24884 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:30:53.103+02:00  INFO 24884 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:30:53.189+02:00  INFO 24884 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 24884 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:30:53.189+02:00  INFO 24884 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:30:53.786+02:00  INFO 24884 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:30:53.868+02:00  INFO 24884 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-11-13T16:30:54.299+02:00  INFO 24884 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:30:54.408+02:00  INFO 24884 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:30:54.460+02:00  INFO 24884 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:30:54.644+02:00  INFO 24884 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:30:54.689+02:00  INFO 24884 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:30:54.938+02:00  INFO 24884 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:30:54.940+02:00  INFO 24884 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:30:54.969+02:00  WARN 24884 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:30:55.931+02:00  INFO 24884 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:30:56.004+02:00  INFO 24884 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:30:56.557+02:00  WARN 24884 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:30:56.763+02:00  INFO 24884 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:30:56.844+02:00  INFO 24884 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 3.745 seconds (process running for 17.629)
+2024-11-13T16:30:57.101+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: f90f3ba9-5ebf-4a4f-8f27-e8cfdee84f57
+2024-11-13T16:30:57.207+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 6e908827-fecd-4764-9cff-0b24cacb7cce
+2024-11-13T16:30:57.208+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 6e908827-fecd-4764-9cff-0b24cacb7cce
+2024-11-13T16:30:57.208+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 6e908827-fecd-4764-9cff-0b24cacb7cce
+2024-11-13T16:30:57.220+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: efd9daea-eb4c-4be7-9636-893616b47b4d
+2024-11-13T16:30:57.221+02:00 ERROR 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: efd9daea-eb4c-4be7-9636-893616b47b4d
+2024-11-13T16:30:57.228+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 18745baf-c7cd-4889-98ae-1281407d3c80
+2024-11-13T16:30:57.229+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 18745baf-c7cd-4889-98ae-1281407d3c80
+2024-11-13T16:30:57.230+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 18745baf-c7cd-4889-98ae-1281407d3c80
+2024-11-13T16:30:57.239+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=59ad9881-b5d4-4370-b705-604cdf61efe0, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:30:57.244+02:00  INFO 24884 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 59ad9881-b5d4-4370-b705-604cdf61efe0
+2024-11-13T16:30:57.283+02:00  INFO 24884 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:30:57.286+02:00  INFO 24884 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:30:57.291+02:00  INFO 24884 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:35:10.917+02:00  INFO 11436 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 11436 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:35:10.922+02:00  INFO 11436 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:35:14.776+02:00  INFO 11436 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:35:14.777+02:00  INFO 11436 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:35:14.780+02:00  INFO 11436 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-11-13T16:35:14.831+02:00  INFO 11436 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 4.686 seconds (process running for 7.159)
+2024-11-13T16:35:15.040+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: 2a71991a-e26b-4512-a21e-5885e0f62ed6
+2024-11-13T16:35:15.051+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 2a71991a-e26b-4512-a21e-5885e0f62ed6 deleted successfully
+2024-11-13T16:35:15.211+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 57082b0a-1791-4b57-b7f4-086864b4b6ab
+2024-11-13T16:35:15.370+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: af216ab2-8662-4856-bf48-fbfde60443ed
+2024-11-13T16:35:15.407+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:35:15.408+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:35:15.641+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 0d60e9c4-70cd-4445-8c82-b5e90241e41c
+2024-11-13T16:35:15.642+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 0d60e9c4-70cd-4445-8c82-b5e90241e41c updated successfully
+2024-11-13T16:35:15.677+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:35:15.680+02:00  INFO 11436 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: 79831ae2-9a7a-470a-9d8b-dd927c890ab2
+2024-11-13T16:35:15.701+02:00  INFO 11436 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:35:15.722+02:00  INFO 11436 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:35:15.743+02:00  INFO 11436 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:35:15.833+02:00  INFO 11436 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 11436 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:35:15.833+02:00  INFO 11436 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:35:16.553+02:00  INFO 11436 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:35:16.657+02:00  INFO 11436 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-11-13T16:35:17.131+02:00  INFO 11436 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:35:17.308+02:00  INFO 11436 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:35:17.387+02:00  INFO 11436 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:35:17.659+02:00  INFO 11436 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:35:17.731+02:00  INFO 11436 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:35:18.087+02:00  INFO 11436 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:35:18.092+02:00  INFO 11436 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:35:18.136+02:00  WARN 11436 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:35:19.208+02:00  INFO 11436 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:35:19.288+02:00  INFO 11436 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:35:19.956+02:00  WARN 11436 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:35:20.217+02:00  INFO 11436 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:35:20.301+02:00  INFO 11436 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 4.56 seconds (process running for 12.629)
+2024-11-13T16:35:20.547+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 0ca97c74-cd35-4453-9711-75a3051151b6
+2024-11-13T16:35:20.682+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 4185ac5b-74ff-4044-aede-1686172f3a81
+2024-11-13T16:35:20.682+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 4185ac5b-74ff-4044-aede-1686172f3a81
+2024-11-13T16:35:20.683+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 4185ac5b-74ff-4044-aede-1686172f3a81
+2024-11-13T16:35:20.697+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 9b04343f-abc2-41a7-84e6-d116d241a4a5
+2024-11-13T16:35:20.698+02:00 ERROR 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 9b04343f-abc2-41a7-84e6-d116d241a4a5
+2024-11-13T16:35:20.706+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 18828b92-d114-41ce-9b15-813cc04657ef
+2024-11-13T16:35:20.706+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 18828b92-d114-41ce-9b15-813cc04657ef
+2024-11-13T16:35:20.707+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 18828b92-d114-41ce-9b15-813cc04657ef
+2024-11-13T16:35:20.716+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=258c7441-bc50-4da6-ab4f-cc516f05dd1d, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:35:20.721+02:00  INFO 11436 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 258c7441-bc50-4da6-ab4f-cc516f05dd1d
+2024-11-13T16:35:20.768+02:00  INFO 11436 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:35:20.774+02:00  INFO 11436 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:35:20.782+02:00  INFO 11436 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:36:01.026+02:00  INFO 29388 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 29388 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:36:01.028+02:00  INFO 29388 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:36:04.016+02:00  INFO 29388 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:36:04.017+02:00  INFO 29388 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:36:04.020+02:00  INFO 29388 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-11-13T16:36:04.054+02:00  INFO 29388 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 3.529 seconds (process running for 4.921)
+2024-11-13T16:36:04.279+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: d877dca1-53f2-4fd4-b42b-1fd94599b459
+2024-11-13T16:36:04.288+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: d877dca1-53f2-4fd4-b42b-1fd94599b459 deleted successfully
+2024-11-13T16:36:04.432+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: f886247c-4247-4679-bd8f-8abef5f4e079
+2024-11-13T16:36:04.551+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 6ffba8ca-8760-49c5-abad-6c8be5e79f02
+2024-11-13T16:36:04.568+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:36:04.569+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:36:04.802+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 71bc55b2-ed9e-47af-b93b-abba5cae082d
+2024-11-13T16:36:04.804+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 71bc55b2-ed9e-47af-b93b-abba5cae082d updated successfully
+2024-11-13T16:36:04.836+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:36:04.838+02:00  INFO 29388 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: fd390e24-3afe-4957-a9c4-dca25424da46
+2024-11-13T16:36:04.868+02:00  INFO 29388 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:36:04.891+02:00  INFO 29388 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:36:04.910+02:00  INFO 29388 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:36:04.986+02:00  INFO 29388 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 29388 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:36:04.987+02:00  INFO 29388 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:36:05.683+02:00  INFO 29388 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:36:05.746+02:00  INFO 29388 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-11-13T16:36:06.231+02:00  INFO 29388 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:36:06.399+02:00  INFO 29388 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:36:06.471+02:00  INFO 29388 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:36:06.772+02:00  INFO 29388 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:36:06.825+02:00  INFO 29388 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:36:07.202+02:00  INFO 29388 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:36:07.205+02:00  INFO 29388 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:36:07.259+02:00  WARN 29388 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:36:08.564+02:00  INFO 29388 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:36:08.673+02:00  INFO 29388 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:36:09.427+02:00  WARN 29388 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:36:09.809+02:00  INFO 29388 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:36:09.923+02:00  INFO 29388 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 5.014 seconds (process running for 10.789)
+2024-11-13T16:36:10.265+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: e97cc718-106c-44d1-973e-bb22680a1cf5
+2024-11-13T16:36:10.397+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: e8abcca7-660b-487c-8377-02095e99d1e4
+2024-11-13T16:36:10.397+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: e8abcca7-660b-487c-8377-02095e99d1e4
+2024-11-13T16:36:10.398+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: e8abcca7-660b-487c-8377-02095e99d1e4
+2024-11-13T16:36:10.408+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: a2dc116f-a52c-434b-8429-6d2c017e9bf0
+2024-11-13T16:36:10.409+02:00 ERROR 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: a2dc116f-a52c-434b-8429-6d2c017e9bf0
+2024-11-13T16:36:10.414+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: efdd609f-c5eb-42fb-9bea-42460eaefaff
+2024-11-13T16:36:10.415+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: efdd609f-c5eb-42fb-9bea-42460eaefaff
+2024-11-13T16:36:10.416+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: efdd609f-c5eb-42fb-9bea-42460eaefaff
+2024-11-13T16:36:10.428+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=03bc524a-0bd7-42dc-85a5-9c3a0b972ccd, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:36:10.432+02:00  INFO 29388 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 03bc524a-0bd7-42dc-85a5-9c3a0b972ccd
+2024-11-13T16:36:10.471+02:00  INFO 29388 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:36:10.474+02:00  INFO 29388 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:36:10.478+02:00  INFO 29388 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:37:04.711+02:00  INFO 34352 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Starting DemoApplication using Java 21.0.1 with PID 34352 (C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo\target\classes started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:37:04.715+02:00  INFO 34352 --- [demo] [restartedMain] com.em.demo.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:37:04.770+02:00  INFO 34352 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-13T16:37:04.770+02:00  INFO 34352 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-13T16:37:05.559+02:00  INFO 34352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:37:05.622+02:00  INFO 34352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-11-13T16:37:06.174+02:00  INFO 34352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-13T16:37:06.187+02:00  INFO 34352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-13T16:37:06.188+02:00  INFO 34352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-13T16:37:06.250+02:00  INFO 34352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-13T16:37:06.250+02:00  INFO 34352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2024-11-13T16:37:06.277+02:00  INFO 34352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:37:06.494+02:00  INFO 34352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:37:06.496+02:00  INFO 34352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:37:06.512+02:00  INFO 34352 --- [demo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:37:06.631+02:00  INFO 34352 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:37:06.690+02:00  INFO 34352 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:37:06.732+02:00  INFO 34352 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:37:07.042+02:00  INFO 34352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:37:07.092+02:00  WARN 34352 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:37:08.126+02:00  INFO 34352 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:37:08.186+02:00  INFO 34352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:37:08.476+02:00  WARN 34352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:37:08.836+02:00  INFO 34352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-13T16:37:08.883+02:00  INFO 34352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-13T16:37:08.891+02:00  INFO 34352 --- [demo] [restartedMain] com.em.demo.DemoApplication              : Started DemoApplication in 4.71 seconds (process running for 5.63)
+2024-11-13T16:37:44.405+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-13T16:37:44.405+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-13T16:37:44.406+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-13T16:37:44.565+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:37:44.566+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=null, firstName=John, lastName=Doe, email=johndoe@example.com, department=Engineering, salary=75000.00)
+2024-11-13T16:37:44.639+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:44.639+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-2] c.em.demo.controller.EmployeeController  : Employee created with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:57.647+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-3] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:57.647+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-3] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:57.647+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-3] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:57.714+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-3] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:37:57.714+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-3] c.em.demo.controller.EmployeeController  : Employee with ID: 83e0005d-ef1b-4f32-a499-600175659131 updated successfully
+2024-11-13T16:38:06.201+02:00  WARN 34352 --- [demo] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/employees.]
+2024-11-13T16:38:08.949+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-6] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:38:08.949+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-6] c.e.d.service.impl.EmployeeServiceImpl   : Fetching all employees
+2024-11-13T16:38:09.049+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-6] c.e.d.service.impl.EmployeeServiceImpl   : Total employees found: 1
+2024-11-13T16:38:09.050+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-6] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:38:33.229+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-7] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:38:33.230+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-7] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:38:33.230+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-7] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:38:33.232+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-7] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 83e0005d-ef1b-4f32-a499-600175659131
+2024-11-13T16:38:33.233+02:00  INFO 34352 --- [demo] [http-nio-8080-exec-7] c.em.demo.controller.EmployeeController  : Employee with ID: 83e0005d-ef1b-4f32-a499-600175659131 updated successfully
+2024-11-13T16:39:00.590+02:00  INFO 19840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 19840 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:39:00.593+02:00  INFO 19840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:39:22.754+02:00  INFO 19840 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:39:22.756+02:00  INFO 19840 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:39:22.765+02:00  INFO 19840 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2024-11-13T16:39:22.838+02:00  INFO 19840 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 22.936 seconds (process running for 25.013)
+2024-11-13T16:39:23.445+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: be1235b2-5f0c-4e7a-9e6b-257d5511feb2
+2024-11-13T16:39:23.471+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: be1235b2-5f0c-4e7a-9e6b-257d5511feb2 deleted successfully
+2024-11-13T16:39:23.702+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: c002e2b2-513e-4ba2-b379-58421683fda7
+2024-11-13T16:39:23.885+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: d48a77e1-663e-4b35-8cfb-d0986192d515
+2024-11-13T16:39:23.910+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:39:23.912+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:39:24.356+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: 1c32183f-39b3-46ca-a4c9-e819dd6c7516
+2024-11-13T16:39:24.358+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 1c32183f-39b3-46ca-a4c9-e819dd6c7516 updated successfully
+2024-11-13T16:39:24.393+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:39:24.395+02:00  INFO 19840 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: 27ec7337-62e7-497a-acca-57e716b25bd8
+2024-11-13T16:39:24.415+02:00  INFO 19840 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:39:24.436+02:00  INFO 19840 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:39:24.451+02:00  INFO 19840 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:39:24.552+02:00  INFO 19840 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 19840 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:39:24.553+02:00  INFO 19840 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:39:25.445+02:00  INFO 19840 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:39:25.572+02:00  INFO 19840 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2024-11-13T16:39:26.436+02:00  INFO 19840 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:39:26.630+02:00  INFO 19840 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:39:26.742+02:00  INFO 19840 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:39:27.058+02:00  INFO 19840 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:39:27.119+02:00  INFO 19840 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:39:27.458+02:00  INFO 19840 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:39:27.464+02:00  INFO 19840 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:39:27.504+02:00  WARN 19840 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:39:28.752+02:00  INFO 19840 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:39:28.836+02:00  INFO 19840 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:39:29.407+02:00  WARN 19840 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:39:29.622+02:00  INFO 19840 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:39:29.735+02:00  INFO 19840 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 5.284 seconds (process running for 31.911)
+2024-11-13T16:39:30.022+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: eb4ec94f-e5b9-48c4-9b0f-68b0070494c8
+2024-11-13T16:39:30.150+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: c2f31afc-d303-468c-8962-d63f0e39401e
+2024-11-13T16:39:30.151+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: c2f31afc-d303-468c-8962-d63f0e39401e
+2024-11-13T16:39:30.152+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: c2f31afc-d303-468c-8962-d63f0e39401e
+2024-11-13T16:39:30.167+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 8c2e50f0-2e5b-42b1-bd28-9e35f2b6f4fc
+2024-11-13T16:39:30.168+02:00 ERROR 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 8c2e50f0-2e5b-42b1-bd28-9e35f2b6f4fc
+2024-11-13T16:39:30.175+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 6476d4d7-bab0-4e08-94c1-034e0d80ea69
+2024-11-13T16:39:30.175+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 6476d4d7-bab0-4e08-94c1-034e0d80ea69
+2024-11-13T16:39:30.176+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 6476d4d7-bab0-4e08-94c1-034e0d80ea69
+2024-11-13T16:39:30.189+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=14dbac4a-c9ae-4290-9f28-8014f3114bbb, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:39:30.198+02:00  INFO 19840 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: 14dbac4a-c9ae-4290-9f28-8014f3114bbb
+2024-11-13T16:39:30.245+02:00  INFO 19840 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:39:30.249+02:00  INFO 19840 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:39:30.254+02:00  INFO 19840 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:42:30.364+02:00  INFO 34352 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:42:30.403+02:00  WARN 34352 --- [demo] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-11-13T16:42:30.409+02:00  INFO 34352 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:42:30.431+02:00  INFO 34352 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:42:51.075+02:00  INFO 19444 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 19444 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:42:51.080+02:00  INFO 19444 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:43:02.181+02:00  INFO 19444 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:43:02.185+02:00  INFO 19444 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:43:02.198+02:00  INFO 19444 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2024-11-13T16:43:02.409+02:00  INFO 19444 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 12.377 seconds (process running for 15.373)
+2024-11-13T16:43:03.360+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: 3b8c1222-b141-4e45-b4d2-692ea618e8ff
+2024-11-13T16:43:03.416+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 3b8c1222-b141-4e45-b4d2-692ea618e8ff deleted successfully
+2024-11-13T16:43:03.927+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 4cb54a5d-fd8b-4134-a5b0-aab864ee68a6
+2024-11-13T16:43:04.457+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: cf80f04d-2b45-4066-9af1-42e8ddce95b6
+2024-11-13T16:43:04.517+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:43:04.520+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:43:05.325+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: d3111707-f3ef-44c6-be6c-d4200a1cf89d
+2024-11-13T16:43:05.328+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: d3111707-f3ef-44c6-be6c-d4200a1cf89d updated successfully
+2024-11-13T16:43:05.450+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:43:05.453+02:00  INFO 19444 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: 5a8730f2-4fa9-4dd3-b770-b4a3433f08ba
+2024-11-13T16:43:05.573+02:00  INFO 19444 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:43:05.719+02:00  INFO 19444 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:43:05.789+02:00  INFO 19444 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:43:06.183+02:00  INFO 19444 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 19444 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:43:06.187+02:00  INFO 19444 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:43:08.966+02:00  INFO 19444 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:43:09.319+02:00  INFO 19444 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 295 ms. Found 1 JPA repository interface.
+2024-11-13T16:43:11.472+02:00  INFO 19444 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:43:12.047+02:00  INFO 19444 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:43:12.382+02:00  INFO 19444 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:43:13.373+02:00  INFO 19444 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:43:13.613+02:00  INFO 19444 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:43:14.923+02:00  INFO 19444 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:43:14.934+02:00  INFO 19444 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:43:15.034+02:00  WARN 19444 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:43:16.165+02:00  INFO 19444 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:43:16.254+02:00  INFO 19444 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:43:16.813+02:00  WARN 19444 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:43:17.065+02:00  INFO 19444 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:43:17.175+02:00  INFO 19444 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 11.389 seconds (process running for 30.139)
+2024-11-13T16:43:17.465+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 3abe15ad-ca38-4250-8d84-ce7287944cea
+2024-11-13T16:43:17.585+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: 0c281b64-f302-4061-b648-66991c919e81
+2024-11-13T16:43:17.586+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 0c281b64-f302-4061-b648-66991c919e81
+2024-11-13T16:43:17.586+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: 0c281b64-f302-4061-b648-66991c919e81
+2024-11-13T16:43:17.599+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 7b2cd7ab-296e-4b48-b557-56b06a911ea6
+2024-11-13T16:43:17.600+02:00 ERROR 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 7b2cd7ab-296e-4b48-b557-56b06a911ea6
+2024-11-13T16:43:17.606+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: dd33798f-48d1-4ecc-ab4e-43d6d97d9438
+2024-11-13T16:43:17.607+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: dd33798f-48d1-4ecc-ab4e-43d6d97d9438
+2024-11-13T16:43:17.608+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: dd33798f-48d1-4ecc-ab4e-43d6d97d9438
+2024-11-13T16:43:17.620+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=d846f6b5-dde6-407c-8600-0e029b032581, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:43:17.626+02:00  INFO 19444 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: d846f6b5-dde6-407c-8600-0e029b032581
+2024-11-13T16:43:17.663+02:00  INFO 19444 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:43:17.667+02:00  INFO 19444 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:43:17.672+02:00  INFO 19444 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-13T16:48:06.070+02:00  INFO 26392 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 21.0.1 with PID 26392 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:48:06.074+02:00  INFO 26392 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:48:10.805+02:00  INFO 26392 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T16:48:10.807+02:00  INFO 26392 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T16:48:10.813+02:00  INFO 26392 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2024-11-13T16:48:10.884+02:00  INFO 26392 --- [demo] [main] c.e.d.controller.EmployeeControllerTest  : Started EmployeeControllerTest in 5.511 seconds (process running for 8.375)
+2024-11-13T16:48:11.152+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to delete employee with ID: 271180be-9bfc-4944-8e05-23b722c53268
+2024-11-13T16:48:11.165+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: 271180be-9bfc-4944-8e05-23b722c53268 deleted successfully
+2024-11-13T16:48:11.309+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 810a533d-57e1-463c-9d66-685df1ac8f6b
+2024-11-13T16:48:11.470+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch employee with ID: 316abe47-b527-4a02-a199-5010430a13ac
+2024-11-13T16:48:11.490+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to fetch all employees
+2024-11-13T16:48:11.491+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Returning 1 employees
+2024-11-13T16:48:11.738+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to update employee with ID: c2b9e844-d356-474e-bb8a-790bfecab561
+2024-11-13T16:48:11.739+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee with ID: c2b9e844-d356-474e-bb8a-790bfecab561 updated successfully
+2024-11-13T16:48:11.754+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Received request to create employee
+2024-11-13T16:48:11.755+02:00  INFO 26392 --- [demo] [main] c.em.demo.controller.EmployeeController  : Employee created with ID: d615206b-0dc7-43ca-ab44-27cc4979b48b
+2024-11-13T16:48:11.785+02:00  INFO 26392 --- [demo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.em.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T16:48:11.811+02:00  INFO 26392 --- [demo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.em.demo.DemoApplication for test class com.em.demo.DemoApplicationTests
+2024-11-13T16:48:11.841+02:00  INFO 26392 --- [demo] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-11-13T16:48:11.963+02:00  INFO 26392 --- [demo] [main] com.em.demo.DemoApplicationTests         : Starting DemoApplicationTests using Java 21.0.1 with PID 26392 (started by MAHMOUD.MABDELHAMID in C:\Users\mahmoud.mabdelhamid\Desktop\New folder (5)\demo)
+2024-11-13T16:48:11.964+02:00  INFO 26392 --- [demo] [main] com.em.demo.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T16:48:13.100+02:00  INFO 26392 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13T16:48:13.285+02:00  INFO 26392 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2024-11-13T16:48:14.063+02:00  INFO 26392 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13T16:48:14.256+02:00  INFO 26392 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13T16:48:14.336+02:00  INFO 26392 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-13T16:48:14.603+02:00  INFO 26392 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13T16:48:14.671+02:00  INFO 26392 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-13T16:48:15.014+02:00  INFO 26392 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:em_db user=EM_TEST
+2024-11-13T16:48:15.017+02:00  INFO 26392 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-13T16:48:15.059+02:00  WARN 26392 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13T16:48:16.331+02:00  INFO 26392 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13T16:48:16.428+02:00  INFO 26392 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:48:16.963+02:00  WARN 26392 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13T16:48:17.243+02:00  INFO 26392 --- [demo] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:em_db'
+2024-11-13T16:48:17.345+02:00  INFO 26392 --- [demo] [main] com.em.demo.DemoApplicationTests         : Started DemoApplicationTests in 5.505 seconds (process running for 14.836)
+2024-11-13T16:48:17.656+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 392d0d2e-21df-4ed9-be97-9a9d677e20e9
+2024-11-13T16:48:17.792+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Deleting employee with ID: fb15b25e-cfc6-4c9e-bd74-2d0c986de47f
+2024-11-13T16:48:17.792+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: fb15b25e-cfc6-4c9e-bd74-2d0c986de47f
+2024-11-13T16:48:17.793+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee deleted successfully with ID: fb15b25e-cfc6-4c9e-bd74-2d0c986de47f
+2024-11-13T16:48:17.807+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 9ada2e5b-3c34-4799-9591-3bb1a5fe037c
+2024-11-13T16:48:17.808+02:00 ERROR 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee not found with ID: 9ada2e5b-3c34-4799-9591-3bb1a5fe037c
+2024-11-13T16:48:17.815+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Updating employee with ID: 47a7c379-4893-4b51-ab95-3add15fe35ae
+2024-11-13T16:48:17.816+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Fetching employee with ID: 47a7c379-4893-4b51-ab95-3add15fe35ae
+2024-11-13T16:48:17.817+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee updated successfully with ID: 47a7c379-4893-4b51-ab95-3add15fe35ae
+2024-11-13T16:48:17.828+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Creating employee: Employee(id=e3adf6e7-bcc1-4f57-aba7-bfae13e03eca, firstName=John, lastName=Doe, email=john.doe@example.com, department=Engineering, salary=50000)
+2024-11-13T16:48:17.835+02:00  INFO 26392 --- [demo] [main] c.e.d.service.impl.EmployeeServiceImpl   : Employee created successfully with ID: e3adf6e7-bcc1-4f57-aba7-bfae13e03eca
+2024-11-13T16:48:17.886+02:00  INFO 26392 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13T16:48:17.890+02:00  INFO 26392 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-13T16:48:17.897+02:00  INFO 26392 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
