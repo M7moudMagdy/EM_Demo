@@ -1,7 +1,6 @@
 
 package com.em.demo.controller;
 
-import com.em.demo.controller.EmployeeController;
 import com.em.demo.exception.EmployeeNotFoundException;
 import com.em.demo.model.Employee;
 import com.em.demo.service.EmployeeService;
@@ -42,10 +41,10 @@ class EmployeeControllerTest {
     void setUp() {
         employee = new Employee();
         employee.setId(UUID.randomUUID());
-        employee.setFirstName("John");
-        employee.setLastName("Doe");
-        employee.setEmail("john.doe@example.com");
-        employee.setDepartment("Engineering");
+        employee.setFirstName("mahmoud");
+        employee.setLastName("magdy");
+        employee.setEmail("mahmoud.magdy@demo.com");
+        employee.setDepartment("IT");
         employee.setSalary(BigDecimal.valueOf(50000));
     }
 
