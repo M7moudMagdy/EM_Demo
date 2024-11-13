@@ -3,7 +3,6 @@ package com.em.demo.service;
 import com.em.demo.exception.EmployeeNotFoundException;
 import com.em.demo.model.Employee;
 import com.em.demo.repository.EmployeeRepository;
-import com.em.demo.service.impl.EmployeeServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -21,7 +20,7 @@ import static org.mockito.Mockito.*;
 class EmployeeServiceTest {
 
     @InjectMocks
-    private EmployeeServiceImpl employeeService;
+    private EmployeeService employeeService;
 
     @Mock
     private EmployeeRepository employeeRepository;
